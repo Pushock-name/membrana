@@ -1,0 +1,154 @@
+@import "@/assets/styles/variables.scss";
+@import "@/assets/styles/index.scss";
+
+.Block {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    &::after {
+        content: " ";
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        z-index: 1;
+        height: 209px;
+        background-image: url("../../assets/img/middleBg.png");
+        //background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        left: 0px;
+    }
+
+    @media (min-width: 440px) {
+        padding: 0;
+
+
+        @media (min-width: $media-tablet-landscape) {
+            &::before {
+                content: '';
+                position: absolute;
+                right: -10%;
+                bottom: 10%;
+                width: 899px;
+                height: 899px;
+                border-radius: 899px;
+                background: #2D2D2D;
+                filter: blur(300px);
+                -webkit-filter: blur(300px);
+                -moz-filter: blur(300px);
+                -o-filter: blur(300px);
+                -ms-filter: blur(300px);
+                @-moz-document url-prefix() {
+                    opacity: 0.1;
+                }
+
+            }
+        }
+    }
+}
+
+.Wrapper {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    top: 57%;
+    left: 0;
+}
+
+.Video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Title {
+    color: transparent;
+    background-image: conic-gradient(from 0deg at 46.21% 55.56%, #FFF 0deg, rgba(255, 255, 255, 0.00) 360deg);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: top;
+    background-repeat: no-repeat;
+    font-size: 50px;
+    line-height: normal;
+}
+
+.SubTitle {
+    font-size: 16px;
+    color: #fff;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    width: 100%;
+    opacity: 0.8;
+    top: -21%;
+    position: absolute;
+    @media (max-width: 370px) {
+        //position: absolute;
+        top: -30%;
+
+        //text-align: left;
+    }
+    @media (min-width: 440px) {
+        //position: absolute;
+        top: -16%;
+
+        //text-align: left;
+    }
+    @media (max-width: 530px) {
+        right: 2%;
+    }
+    @media (min-width: 620px) {
+        //position: absolute;
+        top: -41%;
+        //right: 21%;
+        font-size: 20px;
+    }
+    @media (min-width: $media-tablet) {
+        //position: absolute;
+        top: -41%;
+        //right: 21%;
+        font-size: 20px;
+        //text-align: center;
+    }
+    @media (min-width: $media-tablet-landscape) {
+        //position: absolute;
+        //text-align: left;
+        top: -41%;
+        //right: 30%;
+        font-size: 20px;
+    }
+}
+
+
+.Stick {
+    width: 1px;
+    height: 90px;
+    background: #fff;
+    opacity: 0.5;
+    margin-top: 39px;
+    overflow: hidden;
+}
+
+.SmallerStick {
+    width: 1px;
+    height: 35px;
+    background-image: linear-gradient(0deg, rgba(255,255,255,1) 0%,rgba(135,135,135,1) 100%);
+    border-color: transparent;
+    animation: moveStickAnimation 5s infinite;
+}
+
+@keyframes moveStickAnimation {
+    0% {
+        transform: translateY(-40px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+}

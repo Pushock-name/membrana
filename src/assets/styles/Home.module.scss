@@ -1,0 +1,76 @@
+@import "@/assets/styles/variables.scss";
+
+
+.Block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Title {
+  //max-width: 300px;
+  margin-bottom: 56px ;
+  z-index: 2;
+  position: relative;
+
+  @media (min-width: $media-tablet) {
+    //max-width: 600px;
+  }
+
+  @media (min-width: $media-tablet-landscape) {
+    max-width: 100%;
+    margin: 0 auto 56px auto !important;
+  }
+
+  h2 {
+    font-family: $font-base;
+    color: transparent;
+    //background: conic-gradient(from 270deg at 4.57% 52.44%, #FFF 0deg, rgba(255, 255, 255, 0.90) 36.81592583656311deg, rgba(255, 255, 255, 0.00) 360deg);
+    background: linear-gradient(90deg, #FFF -5.87%, rgba(255, 255, 255, 0.90) 6.23%, rgba(255, 255, 255, 0.00) 112.47%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+    line-height: 34px;
+    font-weight: 400;
+    text-align: left;
+
+
+    @media (min-width: $media-tablet) {
+      font-size: 72px;
+      line-height: 60px;
+    }
+
+    @media (min-width: $media-tablet-landscape) {
+      font-size: 90px;
+      line-height: 90px;
+      text-align: center;
+    }
+
+  }
+}
+
+.TitleString_3 {
+  line-height: 40px;
+
+  @media (min-width: $media-tablet) {
+    line-height: 50px;
+  }
+
+  @media (min-width: $media-tablet-landscape) {
+    line-height: 86px;
+  }
+}
+
+
+.TitleString_4 {
+  line-height: 40px;
+
+  @media (min-width: $media-tablet) {
+    line-height: 50px;
+  }
+
+  @media (min-width: $media-tablet-landscape) {
+    line-height: 95px;
+  }
+}

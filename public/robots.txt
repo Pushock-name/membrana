@@ -1,0 +1,4 @@
+Sitemap: https://business.membrana.me/sitemap.xml
+Crawl-delay: 5
+User-agent: *
+Allow: https://business.membrana.me/

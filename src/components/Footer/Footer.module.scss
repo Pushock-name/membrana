@@ -1,0 +1,63 @@
+@import "@/assets/styles/variables.scss";
+
+
+.Footer {
+  width: 100%;
+  margin-bottom: 20px;
+
+  @media (min-width: $media-tablet) {
+    margin-bottom: 35px;
+  }
+}
+
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+
+  @media (min-width: $media-tablet-landscape) {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media (min-width: 1300px) {
+    flex-direction: row;
+  }
+}
+
+.LeftLink,
+.RightLink {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  @media (min-width: $media-tablet) {
+    flex-direction: row;
+  }
+
+  a,
+  p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    opacity: 0.5;
+    margin-bottom: 20px;
+
+    @media (min-width: $media-tablet) {
+      &:not(:last-child) {
+        margin: 0 24px 0 0;
+      }
+    }
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}
+.footerText {
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+  opacity: 0.5;
+}
