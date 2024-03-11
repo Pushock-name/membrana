@@ -14,7 +14,7 @@ import jqueryScrolldepth from 'scroll-depth';
 const blockContentArr = [
   {
     title: (
-        <span>Информация останется конфиденциальной</span>
+      <span>Информация останется конфиденциальной</span>
     ),
     text: [
       <span>
@@ -28,11 +28,11 @@ const blockContentArr = [
     videoHeight: 440,
     video: 'https://storage.yandexcloud.net/cdn.tsekh.design/Membrana/benefits/1_Privacy-Secure.mp4#t=0.001',
     gradient:
-    'linear-gradient(90deg, #FFF -5.87%, rgba(255, 255, 255, 0.90) 6.23%, rgba(255, 255, 255, 0.00) 112.47%);',
+      'linear-gradient(90deg, #FFF -5.87%, rgba(255, 255, 255, 0.90) 6.23%, rgba(255, 255, 255, 0.00) 112.47%);',
     id: 1,
     circlePosition: [-280, 'auto', 'auto', -150],
     circleSize: [613, 613],
-    styles:[{marginLeft:"0px"},{marginLeft: "160px"}]
+    styles: [{ marginLeft: "0px" }, { marginLeft: "160px" }]
   },
   {
     title: (
@@ -42,10 +42,10 @@ const blockContentArr = [
     ),
     text: [
       <span>
-       Membrana проверяет звонки и&nbsp;блокирует спам сразу, чтобы вы&nbsp;не&nbsp;тратили на&nbsp;него время. Лишние уведомления вас не&nbsp;побеспокоят
+        Membrana проверяет звонки и&nbsp;блокирует спам сразу, чтобы вы&nbsp;не&nbsp;тратили на&nbsp;него время. Лишние уведомления вас не&nbsp;побеспокоят
       </span>,
       <span>
-       Membrana проверяет звонки и&nbsp;блокирует спам сразу, чтобы вы&nbsp;не&nbsp;тратили на&nbsp;него время. Лишние уведомления вас не&nbsp;побеспокоят
+        Membrana проверяет звонки и&nbsp;блокирует спам сразу, чтобы вы&nbsp;не&nbsp;тратили на&nbsp;него время. Лишние уведомления вас не&nbsp;побеспокоят
       </span>,
     ],
     videoWidth: 494,
@@ -56,7 +56,7 @@ const blockContentArr = [
     id: 2,
     circlePosition: [-300, -300, 'auto', 'auto'],
     circleSize: [725, 725],
-    styles:[{marginRight:"0px"},{marginRight: "160px"}]
+    styles: [{ marginRight: "0px" }, { marginRight: "160px" }]
   },
   {
     title: (
@@ -80,16 +80,16 @@ const blockContentArr = [
     id: 3,
     circlePosition: [-150, 'auto', 'auto', -800],
     circleSize: [900, 900],
-    styles:[{marginRight:"0px"},{marginLeft: "120px"}]
+    styles: [{ marginRight: "0px" }, { marginLeft: "120px" }]
   },
   {
     title: <>Ответит на&nbsp;звонки за&nbsp;вас</>,
     text: [
       <span>
-       Сервис Голос определит важные звонки. Если вашему близкому важен ваш ответ прямо сейчас, то&nbsp;он&nbsp;сразу&nbsp;же вас соединит. На&nbsp;несрочные звонки&nbsp;&mdash; ответит сам и&nbsp;сохранит для вас расшифровку диалога в&nbsp;приложении
+        Сервис Голос определит важные звонки. Если вашему близкому важен ваш ответ прямо сейчас, то&nbsp;он&nbsp;сразу&nbsp;же вас соединит. На&nbsp;несрочные звонки&nbsp;&mdash; ответит сам и&nbsp;сохранит для вас расшифровку диалога в&nbsp;приложении
       </span>,
       <span>
-       Сервис Голос определит важные звонки. Если вашему близкому важен ваш ответ прямо сейчас, то&nbsp;он&nbsp;сразу&nbsp;же вас соединит. На&nbsp;несрочные звонки&nbsp;&mdash; ответит сам и&nbsp;сохранит для вас расшифровку диалога в&nbsp;приложении
+        Сервис Голос определит важные звонки. Если вашему близкому важен ваш ответ прямо сейчас, то&nbsp;он&nbsp;сразу&nbsp;же вас соединит. На&nbsp;несрочные звонки&nbsp;&mdash; ответит сам и&nbsp;сохранит для вас расшифровку диалога в&nbsp;приложении
       </span>,
     ],
     videoWidth: 501,
@@ -98,16 +98,16 @@ const blockContentArr = [
     gradient:
       'linear-gradient(269deg, #FFF 1.16%, rgba(255, 255, 255, 0.90) 18.67%, rgba(255, 255, 255, 0.00) 172.36%);',
     id: 4,
-    styles:[{marginLeft:"0px"},{marginRight:"160px"}]
+    styles: [{ marginLeft: "0px" }, { marginRight: "160px" }]
   },
   {
     title: <span className={Styles.TitleString_4}>Маскировка IP</span>,
     text: [
       <span>
-     Мы&nbsp;разработали собственный, легальный VPN чтобы вы&nbsp;могли пользоваться зарубежными сервисами по&nbsp;безопасному каналу и&nbsp;были уверены в&nbsp;сохранности своих данных
+        Мы&nbsp;разработали собственный, легальный VPN чтобы вы&nbsp;могли пользоваться зарубежными сервисами по&nbsp;безопасному каналу и&nbsp;были уверены в&nbsp;сохранности своих данных
       </span>,
       <span>
-     Мы&nbsp;разработали собственный, легальный VPN чтобы вы&nbsp;могли пользоваться зарубежными сервисами по&nbsp;безопасному каналу и&nbsp;были уверены в&nbsp;сохранности своих данных
+        Мы&nbsp;разработали собственный, легальный VPN чтобы вы&nbsp;могли пользоваться зарубежными сервисами по&nbsp;безопасному каналу и&nbsp;были уверены в&nbsp;сохранности своих данных
       </span>,
     ],
     videoWidth: 378,
@@ -118,7 +118,7 @@ const blockContentArr = [
     id: 5,
     circlePosition: [250, 'auto', 'auto', -800],
     circleSize: [755, 755],
-    styles:[{marginLeft:"0px"},{marginLeft:"160px"}]
+    styles: [{ marginLeft: "0px" }, { marginLeft: "160px" }]
   },
   {
     title: (
@@ -127,13 +127,13 @@ const blockContentArr = [
       </span>
     ),
     text: [
-       <span>
-         Безлимитный интернет. Безлимитные звонки на&nbsp;МТС и&nbsp;5000 минут для других операторов. Высокая скорость и&nbsp;качественная связь: в&nbsp;дороге, офисе, на&nbsp;встрече
-       </span>
+      <span>
+        Безлимитный интернет. Безлимитные звонки на&nbsp;МТС и&nbsp;5000 минут для других операторов. Высокая скорость и&nbsp;качественная связь: в&nbsp;дороге, офисе, на&nbsp;встрече
+      </span>
       ,
-        <span>
-         Безлимитный интернет. Безлимитные звонки на&nbsp;МТС и&nbsp;5000 минут для других операторов. Высокая скорость и&nbsp;качественная связь: в&nbsp;дороге, офисе, на&nbsp;встрече
-        </span>
+      <span>
+        Безлимитный интернет. Безлимитные звонки на&nbsp;МТС и&nbsp;5000 минут для других операторов. Высокая скорость и&nbsp;качественная связь: в&nbsp;дороге, офисе, на&nbsp;встрече
+      </span>
       ,
     ],
     videoWidth: 554,
@@ -145,13 +145,42 @@ const blockContentArr = [
     circlePosition: [-350, -400, 'auto', 'auto'],
     circleSize: [697, 697],
     ul: true,
-    styles:[{marginLeft:"50px"},{marginLeft:"-50px"}],
+    styles: [{ marginLeft: "50px" }, { marginLeft: "-50px" }],
     blockLast: true
   },
 ];
 
 function App() {
   const formBlockRef = useRef(null);
+
+  window.onload = function () {
+    setTimeout(() => {
+      const inputName = document.querySelector('#name')
+      console.log(inputName)
+      inputName.addEventListener('change', () => {
+        window.umami.track('start_filling_form')
+        // console.log('start_filling_form')
+      })
+      const inputCompany = document.querySelector('#company')
+      console.log(inputCompany)
+      inputCompany.addEventListener('change', () => {
+        window.umami.track('start_filling_form')
+        // console.log('start_filling_form')
+      })
+      const inputMobile = document.querySelector('#mobile')
+      console.log(inputMobile)
+      inputMobile.addEventListener('change', () => {
+        window.umami.track('start_filling_form')
+        // console.log('start_filling_form')
+      })
+      const button = document.querySelector('#ZVK_form_submit-button')
+      console.log(button)
+      button.addEventListener('click', () => {
+        window.umami.track('send_form')
+        // console.log('send_form')
+      })
+    }, 3000)
+  }
 
   jqueryScrolldepth({
     eventHandler: function (data) {
@@ -163,7 +192,7 @@ function App() {
         window.umami.track('scroll_fc_75')
       } else {
         window.umami.track('scroll_fc_100')
-      } 
+      }
     },
     pixelDepth: false,
     userTiming: false,
@@ -175,7 +204,7 @@ function App() {
       <HeroBlock formBlockRef={formBlockRef} />
       <Research />
       <Container>
-        <div  className={Styles.mainWrapper}>
+        <div className={Styles.mainWrapper}>
           <div className={Styles.Title}>
             <h2>Membrana защитит ваши данные</h2>
           </div>
